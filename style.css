@@ -13,7 +13,7 @@ a{
 
 a:hover{
     color: rgb(24, 194, 112);
-    scale: 1.5;
+  
 }
 
 header{
@@ -47,6 +47,44 @@ header span:nth-child(2) {
     width: 100px;
     height: 80px;
     object-fit: contain;
+        }
+
+
+        .services-wrapper{
+            display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px 10px;
+    background-color: rgb(233, 232, 232);
+    height: 250px;
+    /* min-width: 320px; */
+    margin: 2rem auto;
+    width: 360px;
+    max-width: 100%;
+            
+        }
+
+         .service-wrapper{
+            display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1000px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+        
+        
+        
+        } 
+        .omega-image{
+            width: 200px;
+    height: 250px;
+    object-fit: cover;
+    margin:auto;
+    min-width: 100px;
         }
 
 @media screen and (max-width:760px){
