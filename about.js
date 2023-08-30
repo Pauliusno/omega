@@ -25,7 +25,7 @@ const addServiceToScreen = (omega) => {
                 const response = await fetch('https://64edd0bb1f8721827141cb01.mockapi.io/omega/' + omegaId);
                 if (response.ok) {
                     const omega = await response.json();
-                    console.log('Omega data from API:', omega); // Debug line
+                    console.log('Omega data from API:', omega); 
                     addServiceToScreen(omega);
                 } else {
                     console.error('Error fetching data:', response.status);

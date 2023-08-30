@@ -5,15 +5,13 @@ const buildServiceWrapper = (omega) => {
     wrapper.setAttribute('class', 'services-wrapper');
 
 
-    const imageDiv = document.createElement('div'); // Create a div for the image
-    // imageDiv.setAttribute('class', 'omega-image-div'); // You can style this div if needed
+    const imageDiv = document.createElement('div'); // Created a div for the image
+    const contentDiv = document.createElement('div'); // Created a div for the content
 
     const image = document.createElement('img');
     image.setAttribute('class', 'omega-image');
     image.src = omega.img_url;
 
-    const contentDiv = document.createElement('div'); // Create a div for the content
-    // contentDiv.setAttribute('class', 'omega-content-div'); // You can style this div if needed
 
     wrapper.href = './about.html'
     wrapper.addEventListener('click', ()=>{
